@@ -1,13 +1,14 @@
-.odin {
-   font-size: 28px; 
-   font-family: Helvetica, "Times New Roman", sans-serif;
+.yellow {
+   background-color: yellow;
 }
 
-.odin.black {
+.black {
     background-color: black;
     color: white;
 }
 
-.odin.yellow {
-    background-color: yellow;
+.black,
+.yellow {
+    font-size: 28px; 
+    font-family: Helvetica, "Times New Roman", sans-serif;
 }
