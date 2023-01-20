@@ -1,0 +1,13 @@
+.odin {
+   font-size: 28px; 
+   font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.odin.black {
+    background-color: black;
+    color: white;
+}
+
+.odin.yellow {
+    background-color: yellow;
+}
