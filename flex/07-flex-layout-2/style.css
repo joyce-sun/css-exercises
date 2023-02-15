@@ -4,22 +4,22 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 ul {
   list-style: none;
-  font-size: 24px;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .header {
@@ -40,7 +40,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
 }
 
 .sidebar {
@@ -55,10 +54,9 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex;
-  flex-basis: 0;
-  min-width: 250px;
-  padding: 15px;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
 
 .container {
@@ -70,6 +68,5 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  gap: 12px;
 }
 
