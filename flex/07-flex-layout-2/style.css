@@ -4,10 +4,30 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
@@ -19,10 +39,24 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  padding: 16px;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
 }
